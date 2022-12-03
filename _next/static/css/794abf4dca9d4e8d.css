@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 1;
+  margin: 2;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Times New Roman, Verdana, Trebuchet MS
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: blue) {
+  html {
+    color-scheme: pink;
+  }
+  body {
+    color: white;
+    background: green;
+  }
+}
+
